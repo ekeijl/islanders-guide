@@ -1,6 +1,7 @@
 {
   "name": "Islanders Guide",
-  "short_name": "Islanders",
+  "short_name": "Islanders Guide",
+  "description": "A guide app for the city building game Islanders",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,6 +14,8 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
+  "start_url": "",
+  "display": "standalone",
+  "theme_color": "#297895",
   "background_color": "#297895"
 }
