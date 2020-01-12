@@ -1,0 +1,27 @@
+button {
+  background-color: #297895;
+  border-radius: 30px;
+  padding: 0.1rem 2rem;
+  margin: 0.5rem 0;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+button:hover {
+  background-color: #27738f;
+}
+
+.button-white {
+  background-color: #fff;
+  color: #297895;
+  font-weight: 800;
+  padding: 0.1rem 3rem;
+  margin-top: 2rem;
+}
+.button-white:hover {
+  background: #fff;
+}
+.button-white:active {
+  background: #ddd;
+}

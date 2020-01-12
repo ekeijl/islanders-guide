@@ -1,0 +1,263 @@
+[
+  {
+    "id": "statue",
+    "label": "Statue",
+    "title": "Anything can be placed near a Statue, boosts Temple by 40.",
+    "value": -25
+  },
+  {
+    "id": "lumberjack",
+    "label": "Lumberjack",
+    "title": "Can be grouped for big Sawmill bonus later.",
+    "value": 0,
+    "group": "lumber"
+  },
+  {
+    "id": "sawmill",
+    "label": "Sawmill",
+    "title": "Build in a circle around Lumberjacks.",
+    "value": 0,
+    "group": "lumber"
+  },
+
+  {
+    "id": "seaweed",
+    "label": "Seaweed Field",
+    "title": "Place between Seaweed Farms, later add a Shaman",
+    "value": -1,
+    "group": "seaweed"
+  },
+  {
+    "id": "seaweedfarm",
+    "label": "Seaweed Farm",
+    "title": "Place before Seaweed Field on a peninsula or small island, rotate to catch as many fields as possible.",
+    "value": -24,
+    "group": "seaweed"
+  },
+
+  {
+    "id": "gold",
+    "label": "Gold Vein",
+    "title": "Only one can appear on the map.",
+    "value": 0,
+    "group": "gold"
+  },
+  {
+    "id": "goldmine",
+    "label": "Gold Mine",
+    "title": "Place before Jewelry",
+    "value": -20,
+    "group": "gold"
+  },
+  {
+    "id": "jewelry",
+    "label": "Jewelry",
+    "title": "Place the Gold Mine first, then the Jewelry in between the Mine and a group of Mansions.",
+    "value": -35,
+    "group": "gold"
+  },
+
+  {
+    "id": "mill",
+    "label": "Mill",
+    "title": "Place one, then stack as many fields. Grouping two Mills is possible for bigger Field scores.",
+    "value": 8,
+    "group": "farming"
+  },
+  {
+    "id": "field",
+    "label": "Field",
+    "title": "Group around Mills. Keep your Water Plateau with grass on it for expanding on water.",
+    "value": 3,
+    "group": "farming"
+  },
+
+  {
+    "id": "hop",
+    "label": "Hop Field",
+    "title": "Place near Brewery and Resort Oasis, you get about 6-8 Hop per game. Can be built on beach.",
+    "value": 5,
+    "group": "brewing"
+  },
+  {
+    "id": "brewery",
+    "label": "Brewery",
+    "title": "Place Hop first, then the Brewery. Reserve some space for one more Brewery late game.",
+    "value": 7,
+    "group": "brewing"
+  },
+
+  {
+    "id": "brickyard",
+    "label": "Brickyard",
+    "title": "Group together near Sand Pit, keep away from Mansions and Temple.",
+    "value": 6,
+    "group": "brick"
+  },
+  {
+    "id": "sandpit",
+    "label": "Sandpit",
+    "title": "Group these together, for 0-12 points each.",
+    "value": 9,
+    "group": "brick"
+  },
+  {
+    "id": "mason",
+    "label": "Mason",
+    "title": "These can be grouped, great bonus for the Temple.",
+    "value": 9,
+    "group": "brick"
+  },
+
+  {
+    "id": "shaman",
+    "label": "Shaman",
+    "title": "Can be placed near Flowers or as starting point for Houses/Mansions.",
+    "value": 0,
+    "group": "shaman"
+  },
+
+  {
+    "id": "fisher",
+    "label": "Fisher",
+    "title": "Great for boosting City Centers. Can be placed on Seaweed Fields.",
+    "value": 5
+  },
+
+  {
+    "id": "center",
+    "label": "City Center",
+    "title": "Place as soon as you get them, use as starting point for Houses/Mansions.",
+    "value": 15,
+    "group": "city"
+  },
+  {
+    "id": "house",
+    "label": "House",
+    "title": "Large radius, can give 20+ points!",
+    "value": 1,
+    "group": "city"
+  },
+  {
+    "id": "mansion",
+    "label": "Mansion",
+    "title": "Start near City Center, Statue, Shaman, Fountain or Jewelry. Group near Temple.",
+    "value": 1,
+    "group": "city"
+  },
+
+  {
+    "id": "hut",
+    "label": "Hut",
+    "title": "Great for filling awkward leftover spaces. Its huge radius allows for 25+ scores late game.",
+    "value": 4,
+    "group": "hut"
+  },
+  {
+    "id": "fountain",
+    "label": "Fountain",
+    "title": "Place in between Mansions or Parks.",
+    "value": 0,
+    "group": "fountain"
+  },
+  {
+    "id": "park",
+    "label": "Park",
+    "title": "Place near Fountain, Houses, Mansions. Place giant group near Monument and Resort Oasis.",
+    "value": 2,
+    "group": "park"
+  },
+  {
+    "id": "plateau",
+    "label": "Plateau",
+    "title": "Has space for Market or Temple. Great in combination with Mansions and Walls. Boosted by Seaweed.",
+    "value": 0
+  },
+  {
+    "id": "tower",
+    "label": "Tower",
+    "title": "Huge radius can give 50+ points late game. Great booster for the Balloon.",
+    "value": 0
+  },
+  {
+    "id": "warehouse",
+    "label": "Warehouse",
+    "title": "Place near production areas, mainly boosts the Market.",
+    "value": 0
+  },
+  {
+    "id": "circus",
+    "label": "Circus",
+    "title": "Place near Houses, keep away from Mansions and Temple.",
+    "value": 0
+  },
+  {
+    "id": "market",
+    "label": "Market",
+    "title": "Place on (Wall) Plateau near a city.",
+    "value": -20
+  },
+  {
+    "id": "resort",
+    "label": "Resort Oasis",
+    "title": "Place near Hop, Parks and Flowers. Can be a 200+ point bonus late game.",
+    "value": 0
+  },
+  {
+    "id": "tavern",
+    "label": "Tavern",
+    "title": "Place in between Brewery and Houses. Can give a nice +50 score, but it's hard to increase much further.",
+    "value": -15
+  },
+  {
+    "id": "temple",
+    "label": "Temple",
+    "title": "Place on (Wall) Plateau near cities, Shamans and a group of Masons.",
+    "value": -75
+  },
+  {
+    "id": "balloon",
+    "label": "Balloon",
+    "title": "Place near unique buildings, keep away from Temple.",
+    "value": -15
+  },
+  {
+    "id": "monument",
+    "label": "Monument",
+    "title": "Place near group of Parks for 100-300 points.",
+    "value": -15
+  },
+  {
+    "id": "wall",
+    "label": "Wall",
+    "title": "Only place when finished building Houses, Mansions and Parks in that area! Easy to fit in between houses. Can be place around Plateaus and in water.",
+    "value": 2
+  },
+  {
+    "id": "wallplateau",
+    "label": "Wall Plateau",
+    "title": "Build above cities to get large combos with the Market or Temple, can build on other Wall Plateaus.",
+    "value": 10,
+    "group": "waterplateau"
+  },
+  {
+    "id": "waterplateau",
+    "label": "Water Plateau",
+    "title": "Extends city areas on coastal regions. The grass variant can be used for Parks, Fields and Hop.",
+    "value": 13
+  },
+  {
+    "id": "flower",
+    "label": "Flower",
+    "title": "Boosts Shaman and Resort Oasis.",
+    "value": 0,
+    "group": "nature"
+  },
+  {
+    "id": "tree",
+    "label": "Tree",
+    "title": "Boosts Lumberjack, Shaman, Park and Resort Oasis.",
+    "value": 0,
+    "group": "nature"
+  }
+]

@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.2rem;
+  }
+}
+
+.logo {
+  float: left;
+  height: 3rem;
+  margin: 0.5rem;
+  margin-left: 0;
+}
+
+.title {
+  margin-bottom: 2.5rem;
+}
+.title span {
+  border-bottom: 1px solid #fff;
+  padding: 0.1em 0.8em;
+  font-weight: bolder;
+}
